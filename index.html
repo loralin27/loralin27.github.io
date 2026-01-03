@@ -4,77 +4,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loralin Sahoo | Data Science Portfolio</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
-      background: #f8f9fa;
-      color: #333;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
     }
+
     header {
-      background: #0d6efd;
-      color: white;
-      padding: 2rem;
+      background: linear-gradient(135deg, #111827, #1e293b);
+      padding: 3rem 1rem;
       text-align: center;
+      border-bottom: 1px solid #334155;
     }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: #38bdf8;
+    }
+
+    header p {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+      color: #cbd5f5;
+    }
+
+    header a {
+      color: #38bdf8;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
     section {
       max-width: 900px;
       margin: auto;
-      padding: 2rem;
+      padding: 2.5rem 1.5rem;
     }
+
     h2 {
-      color: #0d6efd;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      color: #38bdf8;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 0.5rem;
     }
+
     .skills span {
       display: inline-block;
-      background: #e9ecef;
-      padding: 6px 12px;
-      margin: 5px;
-      border-radius: 20px;
+      background: #1e293b;
+      color: #e5e7eb;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 999px;
       font-size: 14px;
+      border: 1px solid #334155;
     }
+
     .project {
-      background: white;
+      background: #020617;
+      border: 1px solid #334155;
       padding: 1.5rem;
-      margin-bottom: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-    a {
-      color: #0d6efd;
+
+    .project:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #f8fafc;
+    }
+
+    .project a {
+      color: #38bdf8;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
     footer {
       text-align: center;
-      padding: 1rem;
-      background: #212529;
-      color: white;
+      padding: 1.2rem;
+      background: #020617;
+      border-top: 1px solid #334155;
+      color: #94a3b8;
+      font-size: 0.9rem;
     }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>Loralin Sahoo</h1>
-  <p>Data Science | Machine Learning | Software Engineering</p>
+  <p>Data Science • Machine Learning • Software Engineering</p>
   <p>
-    <a href="mailto:loralin2008@gmail.com" style="color:white;">Email</a> |
-    <a href="https://linkedin.com/in/loralin-sahoo" style="color:white;">LinkedIn</a> |
-    <a href="https://github.com/loralin27" style="color:white;">GitHub</a>
+    <a href="mailto:loralin2008@gmail.com">Email</a> |
+    <a href="https://linkedin.com/in/loralin-sahoo">LinkedIn</a> |
+    <a href="https://github.com/loralin27">GitHub</a>
   </p>
 </header>
 
 <section>
   <h2>About Me</h2>
   <p>
-    I am a Computer Engineering undergraduate with strong interest in 
+    Computer Engineering undergraduate with a strong interest in
     Data Science, Machine Learning, and Deep Learning.
-    I enjoy building real-world, deployable AI systems such as chatbots and
-    fraud detection models. Actively seeking internships and roles where I can
-    solve real problems using data.
+    Passionate about building real-world, deployable AI systems such as
+    chatbots and fraud detection models.
+    Actively seeking internships and software roles.
   </p>
 </section>
 
@@ -94,24 +151,21 @@
   <div class="project">
     <h3>AI Helpbot for MOSDAC</h3>
     <p>
-      Built an AI-based chatbot using NLP and web scraping to retrieve FAQs from MOSDAC.
-      Integrated a knowledge graph and deployed the system on Render.
+      Developed an AI-based chatbot using NLP and web scraping to retrieve FAQs
+      from MOSDAC. Integrated a knowledge graph and deployed on Render for
+      real-time user interaction.
     </p>
-    <p>
-      <strong>Tech:</strong> Python, NLP, Web Scraping, Knowledge Graph
-    </p>
+    <p><strong>Tech:</strong> Python, NLP, Knowledge Graph</p>
     <a href="https://github.com/loralin27/ai-helpbot-mosdac">View on GitHub →</a>
   </div>
 
   <div class="project">
     <h3>ATM Fraud Transaction Detection</h3>
     <p>
-      Developed a machine learning model to detect fraudulent ATM transactions
-      using transaction behavior and classification algorithms.
+      Built a machine learning model to identify fraudulent ATM transactions
+      using classification algorithms and behavioral features.
     </p>
-    <p>
-      <strong>Tech:</strong> Python, Machine Learning
-    </p>
+    <p><strong>Tech:</strong> Python, Machine Learning</p>
     <a href="https://github.com/loralin27/atm-fraud-transaction-detection">View on GitHub →</a>
   </div>
 
@@ -136,7 +190,7 @@
 </section>
 
 <footer>
-  © 2026 Loralin Sahoo | Built with ❤️ using GitHub Pages
+  © 2026 Loralin Sahoo • Built with GitHub Pages
 </footer>
 
 </body>
